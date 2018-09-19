@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7846ed-bc92-499b-a8d5-d3240716a84c" name="Default Changelist" comment="DOM  Manipulation starter">
+    <list default="true" id="0f7846ed-bc92-499b-a8d5-d3240716a84c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DOM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,7 +20,8 @@
         <counts>
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1833" />
-          <entry key="txt" value="45" />
+          <entry key="js" value="2307" />
+          <entry key="txt" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1833" />
-          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="JavaScript" value="2307" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -57,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DOM/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="110" column="73" lean-forward="true" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+            <state relative-caret-position="556">
+              <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -107,18 +109,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="199" />
-    <option name="width" value="666" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1119" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,6 +136,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +181,8 @@
       <option name="presentableId" value="Default" />
       <updated>1537355325269</updated>
       <workItem from="1537355327485" duration="8015000" />
-      <workItem from="1537371353731" duration="3233000" />
+      <workItem from="1537371353731" duration="5747000" />
+      <workItem from="1537385680371" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="DOM  Manipulation starter">
       <created>1537355607446</created>
@@ -188,17 +191,31 @@
       <option name="project" value="LOCAL" />
       <updated>1537355607446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DOM  Manipulation DIce Game almost done!">
+      <created>1537374683718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537374683718</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DOM  Manipulation DIce Game almost done!">
+      <created>1537374709234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537374709234</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11248000" />
+    <option name="totallyTimeSpent" value="16206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="966" height="1055" extended-state="4" />
+    <frame x="67" y="25" width="1119" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19724284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16970803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,13 +242,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DOM  Manipulation starter" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM  Manipulation starter" />
+    <MESSAGE value="DOM  Manipulation DIce Game almost done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOM  Manipulation DIce Game almost done!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DOM/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="110" column="73" lean-forward="true" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+        <state relative-caret-position="556">
+          <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

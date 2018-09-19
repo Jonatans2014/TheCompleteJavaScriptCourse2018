@@ -9,64 +9,88 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer,dice;
+var scores, roundScore, activePlayer,dice, gamePlaying,diceSixCounter;
 
 init();
 
 document.querySelector('.btn-roll').addEventListener('click',function () {
-
-
     //1*Ramdon Number
-    var  dice = Math.floor(Math.random() *6) +1;
+    dice = Math.floor(Math.random() *6) +1;
 
-    //2. Display the result
-    var diceDOM= document.querySelector('.dice');
-    diceDOM.style.display = 'block';
-    diceDOM.src = 'dice-' + dice + '.png';
+    if(gamePlaying)
+    {
+
+
+        //2. Display the result
+        var diceDOM= document.querySelector('.dice');
+        diceDOM.style.display = 'block';
+        diceDOM.src = 'dice-' + dice + '.png';
 
     //3. Update the round score IF the rolled number was NOT a 1
-    if (dice !== 1)
+    if (dice === 1)
     {
+        Nextplayer();
+
+    }else if(dice === 6)
+    {
+        console.log(dice);
+        diceSixCounter +=1;
+        console.log(diceSixCounter);
+    }
+    else{
+        //NExt player
+
         //Addd score
         roundScore += dice;
         document.querySelector('#current-'+activePlayer).textContent = roundScore;
 
-    }else{
-        //NExt player
-        Nextplayer();
+    }
 
+        // if player get 6 twice he/she loses all points
+
+        if(diceSixCounter == 2)
+        {
+            Nextplayer();
+
+        }
     }
 });
 
 
 document.querySelector('.btn-hold').addEventListener('click',function()
 {
-    //add Current score to global score
-    scores[activePlayer] += roundScore;
 
-
-    //Update the UI
-    document.querySelector('#score-'+ activePlayer).textContent = scores[activePlayer]
-
-    // CHeck if player won the
-
-    if(scores[activePlayer] >= 10)
+    if(gamePlaying)
     {
-        document.querySelector('#name-'+ activePlayer).textContent = 'Winner!';
-        document.querySelector('.dice').style.display ='none';
-        document.querySelector('#player-'+ activePlayer + '-panel').classList.add('winner');
-        document.querySelector('#player-'+ activePlayer + '-panel').classList.remove('active');
-    }
-    else
-    {
-        //netxtplayer
-        Nextplayer();
+        //add Current score to global score
+        scores[activePlayer] += roundScore;
+
+
+        //Update the UI
+        document.querySelector('#score-'+ activePlayer).textContent = scores[activePlayer];
+
+        // CHeck if player won the
+
+        if(scores[activePlayer] >= 100)
+        {
+            document.querySelector('#name-'+ activePlayer).textContent = 'Winner!';
+            document.querySelector('.dice').style.display ='none';
+            document.querySelector('#player-'+ activePlayer + '-panel').classList.add('winner');
+            document.querySelector('#player-'+ activePlayer + '-panel').classList.remove('active');
+            gamePlaying =false;
+
+        }
+        else
+        {
+            //netxtplayer
+            Nextplayer();
+
+        }
+
+
+
 
     }
-
-
-
-
 })
 
 function Nextplayer() {
@@ -75,6 +99,16 @@ function Nextplayer() {
 //NExt player
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     roundScore = 0;
+
+    // zero the score after six appears twice
+    if(diceSixCounter ===2)
+    {
+        console.log('itworked');
+        scores[activePlayer] =0;
+        document.querySelector('#score-'+ activePlayer).textContent = scores[activePlayer];
+
+    }
+    diceSixCounter =0;
 
     document.getElementById('current-0').textContent = '0';
     document.getElementById('current-1').textContent = '0';
@@ -93,7 +127,8 @@ function init()
     scores =[0,0];
     roundScore = 0;
     activePlayer =0;
-
+    gamePlaying = true;
+    diceSixCounter =0;
     /*get random between 1-6*/
 
 //1 Ramdon N
@@ -104,12 +139,13 @@ function init()
     document.getElementById('current-0').textContent='0';
     document.getElementById('current-1').textContent='0';
     document.getElementById('name-0').textContent='Player 1';
-    document.getElementById('.name-1').textContent='Player 2';
+    document.getElementById('name-1').textContent='Player 2';
 
     document.querySelector('.player-0-panel').classList.remove('winner');
     document.querySelector('.player-1-panel').classList.remove('winner');
     document.querySelector('.player-0-panel').classList.remove('active');
     document.querySelector('.player-1-panel').classList.remove('active');
+    document.querySelector('.player-0-panel').classList.add('active');
 
 }
 /*dice = Math.floor(Math.random() *6) +1;
