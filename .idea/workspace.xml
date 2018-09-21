@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Obj&amp;Functions/starter/script.js" line="214" />
+    <bookmark url="file://$PROJECT_DIR$/Obj&amp;Functions/starter/script.js" line="210" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7846ed-bc92-499b-a8d5-d3240716a84c" name="Default Changelist" comment="" />
+    <list default="true" id="0f7846ed-bc92-499b-a8d5-d3240716a84c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DOM/challenges.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,34 +26,39 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="1" />
-          <entry key="js" value="1" />
+          <entry key="html" value="4" />
+          <entry key="js" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="HTML" value="4" />
+          <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2307" />
+          <entry key="css" value="40" />
+          <entry key="html" value="21" />
+          <entry key="js" value="7195" />
           <entry key="txt" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2307" />
+          <entry key="CSS" value="40" />
+          <entry key="HTML" value="21" />
+          <entry key="JavaScript" value="7195" />
           <entry key="PLAIN_TEXT" value="83" />
         </counts>
       </usages-collector>
@@ -54,31 +69,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DOM/app.js">
+        <entry file="file://$PROJECT_DIR$/Obj&amp;Functions/starter/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="93" column="2" lean-forward="true" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="781">
+              <caret line="309" column="51" selection-start-line="309" selection-start-column="51" selection-end-line="309" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM/style.css">
+        <entry file="file://$PROJECT_DIR$/Obj&amp;Functions/starter/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2145">
-              <caret line="143" column="5" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="165">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -96,7 +99,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/DOM/index.html" />
+        <option value="$PROJECT_DIR$/DOM/style.css" />
         <option value="$PROJECT_DIR$/DOM/app.js" />
+        <option value="$PROJECT_DIR$/Obj&amp;Functions/starter/script.js" />
       </list>
     </option>
   </component>
@@ -106,10 +112,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
     <option name="y" value="25" />
-    <option name="width" value="1119" />
+    <option name="width" value="903" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
@@ -124,11 +135,6 @@
               <item name="TheCompleteJavaScriptCourse2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="TheCompleteJavaScriptCourse2018" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TheCompleteJavaScriptCourse2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheCompleteJavaScriptCourse2018" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -141,6 +147,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Obj&amp;Functions" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DOM" />
     </key>
@@ -180,6 +189,9 @@
       <workItem from="1537355327485" duration="8015000" />
       <workItem from="1537371353731" duration="5747000" />
       <workItem from="1537385680371" duration="2538000" />
+      <workItem from="1537434779169" duration="15682000" />
+      <workItem from="1537463687830" duration="3048000" />
+      <workItem from="1537520526614" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="DOM  Manipulation starter">
       <created>1537355607446</created>
@@ -213,17 +225,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16300000" />
+    <option name="totallyTimeSpent" value="38142000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1119" height="1053" extended-state="4" />
+    <frame x="67" y="25" width="903" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16970803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21136364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -251,27 +264,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="Dice Game done!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DOM/app.js">
+    <entry file="file://$PROJECT_DIR$/DOM/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="93" column="2" lean-forward="true" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="814">
+          <caret line="156" column="12" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/style.css">
+    <entry file="file://$PROJECT_DIR$/DOM/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="143" column="5" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="5" />
+        <state relative-caret-position="345">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DOM/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Obj&amp;Functions/starter/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Obj&amp;Functions/starter/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="309" column="51" selection-start-line="309" selection-start-column="51" selection-end-line="309" selection-end-column="51" />
         </state>
       </provider>
     </entry>
